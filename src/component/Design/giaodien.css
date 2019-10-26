@@ -1,0 +1,46 @@
+/* reponsive cho video */
+#background {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  }
+  .image-parent {
+    position: relative;
+    z-index: 0;
+  }
+  /* reponsive cho input search */
+  .btn-search{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+  }
+  .search{
+    background-color: #CC9933;
+  }
+
+  /* reponsive thi công, cải tạo,... */
+  .editIcon{
+    width: 40px;
+    height: 40px;
+  }
+
+ .editText{
+    padding-top: 3%;
+  }
+  /* show ảnh */
+
+  .editImage{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: none !important;
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
