@@ -1,3 +1,22 @@
+/* font chữ  */
+@font-face{
+  font-family: HelveticaBold;
+  src: url('../font/Helvetica/HelveticaNeue-Bold.otf');
+  font-weight: 100;
+}
+@font-face{
+  font-family: HelveticaItalic;
+  src: url('../font/Helvetica/HelveticaNeue-Italic.otf');
+  font-weight: 100;
+}@font-face{
+  font-family: HelveticaMedium;
+  src: url('../font/Helvetica/HelveticaNeue-Medium.otf');
+  font-weight: 100;
+}@font-face{
+  font-family: HelveticaBoldItalic;
+  src: url('../font/Helvetica/HelveticaNeue-BoldItalic.otf');
+  font-weight: 100;
+}
 /* reponsive cho image */
 #background {
   position: relative;
@@ -35,10 +54,63 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     border: none !important;
+    font-family: HelveticaMedium;
   }
 
   .card-img-top{
     width: 100%;
     height: 15vw;
-    object-fit: cover;
+
+  }
+
+  .img {
+    width: 300px;
+    height: 225px;
+    position: relative;
+   
+    overflow: hidden;
+}
+ 
+.txt {
+    width: 89%;
+    height: 100%;
+    background-color: rgba(238, 236, 227, 0.904);
+    position: absolute;
+    bottom:50px;
+    text-align: center;
+    color: rgb(245, 185, 57);
+    padding:10px;
+    box-sizing: border-box;
+    opacity: 0;
+    font-family: HelveticaItalic;
+    font-size: 1vw;
+    
+}
+.img:hover div.txt {
+    opacity: 1;
+    transform: translateY(50px);
+    transition:ease-in-out 0.5s;
+}
+ 
+.img:hover img {
+    transform: scale(1.0);
+    transition: all ease-in-out 0.5s;
+}
+.card-text{
+  font-family: HelveticaMedium !important;
+  font-size: 1.2vw !important;
+}
+  /* Moon decor kiến tạo không gian hoàn hảo */
+  .editTitle{
+    color: #CC9933;
+    font-family: HelveticaItalic;
+  }
+  .detailText{
+    font-size: 1.3vw !important;
+    font-family: HelveticaMedium;
+  }
+  .detailTextTop{
+    font-size: 1.4vw !important;
+    font-family: HelveticaMedium;
+    opacity: 0.6;
   }
