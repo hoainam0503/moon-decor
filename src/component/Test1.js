@@ -162,24 +162,24 @@ class Test1 extends Component {
               <p>Kiến tạo không gian hoàn hảo</p>
               <div className="d-flex justify-content-center detailText">
                 <div className="col-6 d-flex justify-content-around">
-                  <div className="text-center">
-                    <h1>2+</h1>
+                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
+                    <h1 className="counter">2</h1>
                     <p>Kinh nghiệm</p>
                   </div>
-                  <div className="text-center">
-                    <h1>20+</h1>
+                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
+                    <h1  className="counter">20</h1>
                     <p>Đối tác</p>
                   </div>
-                  <div className="text-center">
-                    <h1>125</h1>
+                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
+                    <h1  className="counter">125</h1>
                     <p>Kiến trúc sư</p>
                   </div>
-                  <div>
-                    <h1>350</h1>
+                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
+                    <h1  className="counter ">350</h1>
                     <p>Dự án</p>
                   </div>
-                  <div className="text-center">
-                    <h1>630</h1>
+                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
+                    <h1  className="counter">630</h1>
                     <p>Khách hàng hài lòng</p>
                   </div>
                 </div>

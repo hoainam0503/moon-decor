@@ -537,3 +537,8 @@ margin-top: 5px;
     font-family: HelveticaMedium;
     opacity: 0.6;
   }
+
+  .counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
