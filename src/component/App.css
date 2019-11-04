@@ -542,3 +542,7 @@ margin-top: 5px;
     animation-duration: 1s;
     animation-delay: 0s;
   }
+
+  .viewMore{
+    background-color: burlywood !important;
+  }

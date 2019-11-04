@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import Test from './Test';
-import * as backgroundimg from './item/image/background.jpg';
-import * as img2 from './item/image/img2.png';
-import * as img3 from './item/image/img3.jpg';
-import * as img4 from './item/image/img4.jpg';
-import * as img5 from './item/image/img5.jpg';
-import * as img6 from './item/image/img6.jpg';
-import * as img7 from './item/image/img7.jpg';
-import * as img8 from './item/image/img8.jpg';
-import * as img9 from './item/image/img9.png';
-import * as img10 from './item/image/img10.jpg';
-import * as img11 from './item/image/img11.png';
-import * as img12 from './item/image/img12.jpg';
-import * as img13 from './item/image/img13.jpg';
-import * as iconTknt from './item/Icon/08.thietkenoithat.png';
-import * as iconTc from './item/Icon/09.thicong.png';
-import * as iconCtxd from './item/Icon/10.caitao.png';
+import * as backgroundimg from '../item/image/background.jpg';
+import * as img2 from '../item/image/img2.png';
+import * as img3 from '../item/image/img3.jpg';
+import * as img4 from '../item/image/img4.jpg';
+import * as img5 from '../item/image/img5.jpg';
+import * as img6 from '../item/image/img6.jpg';
+import * as img7 from '../item/image/img7.jpg';
+import * as img8 from '../item/image/img8.jpg';
+import * as img9 from '../item/image/img9.png';
+import * as img10 from '../item/image/img10.jpg';
+import * as img11 from '../item/image/img11.png';
+import * as img12 from '../item/image/img12.jpg';
+import * as img13 from '../item/image/img13.jpg';
+import * as iconTknt from '../item/Icon/08.thietkenoithat.png';
+import * as iconTc from '../item/Icon/09.thicong.png';
+import * as iconCtxd from '../item/Icon/10.caitao.png';
+import HomeImmerslide from './HomeImmersilde';
 
-class Test1 extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -163,10 +163,6 @@ class Test1 extends Component {
               <div className="d-flex justify-content-center detailText">
                 <div className="col-6 d-flex justify-content-around">
                   <div className="text-center col-md-3 col-sm-6 col-xs-6">
-                    <h1 className="counter">2</h1>
-                    <p>Kinh nghiệm</p>
-                  </div>
-                  <div className="text-center col-md-3 col-sm-6 col-xs-6">
                     <h1  className="counter">20</h1>
                     <p>Đối tác</p>
                   </div>
@@ -192,7 +188,7 @@ class Test1 extends Component {
               </div>
               <div className="d-flex  flex-row-reverse mt-4">
                 <div className="col-8">
-                  <button className="btn btn-info">Xem thêm</button>
+                  <button className="btn viewMore">Xem thêm</button>
                 </div>
               </div>
               <div className="d-flex justify-content-center mt-4 detailText">
@@ -201,10 +197,10 @@ class Test1 extends Component {
             </div>
           </div>
         </div>
-      <Test />
+      <HomeImmerslide />
       </div>
     );
   }
 }
 
-export default Test1;
+export default Home;
