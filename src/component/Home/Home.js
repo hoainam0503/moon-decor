@@ -16,6 +16,7 @@ import * as iconTknt from '../item/Icon/08.thietkenoithat.png';
 import * as iconTc from '../item/Icon/09.thicong.png';
 import * as iconCtxd from '../item/Icon/10.caitao.png';
 import HomeImmerslide from './HomeImmersilde';
+import './home.css';
 
 class Home extends Component {
   render() {
@@ -35,124 +36,160 @@ class Home extends Component {
                 <h5>BẠN CÓ CĂN HỘ CẦN ĐƯỢC TƯ VẤN GIẢI PHÁP THIẾT KẾ NỘI THẨT</h5>
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6 btn-group">
-                <img src={iconTknt} className="editIcon" />
+                <img src={iconTknt} className="editIcon" alt="imagecap" />
                 <h5 className="editText">Thiết kế nội thất</h5>
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6 btn-group">
-                <img src={iconTc} className="editIcon" />
+                <img src={iconTc} className="editIcon" alt="imagecap" />
                 <h5 className="editText">Thi công nội thất</h5>
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6 btn-group">
-                <img src={iconCtxd}className="editIcon" />
+                <img src={iconCtxd} className="editIcon" alt="imagecap" />
                 <h5 className="editText">Cải tạo xây dựng</h5>
               </div>
             </div>
             <div className="row mt-4 col-12">
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img2} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img2})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage  mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img3} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h5>
-                    <p className="card-text">Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                  <div style={{ backgroundImage: `url(${img3})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage  mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img4} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">TOPAZ HOME - CĂN HỘ KẾT HỢP HIÊN ĐẠI CỦA CÁC MẢNG XANH</h5>
-                    <p className="card-text">Nội thất được coi là tâm hồn của mỗi ngôi nhà, tạo điểm nhấn riêng..</p>
+                  <div style={{ backgroundImage: `url(${img4})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage  mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img5} />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">NHÀ PHỐ MINA - TÌNH YÊU GỬI GẮM TRONG KHÔNG GIAN SCANDINAVIAN</h5>
-                    <p className="card-text">Một căn hộ đầy ấm áp, niềm vui và hạnh phúc là những điều mà bạn ..</p>
+                  <div style={{ backgroundImage: `url(${img5})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img6} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img6})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img7} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img7})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img8} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img8})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img9} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img9})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img10} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img10})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img11} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img11})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img12} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img12})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="card col-lg-3 col-sm-4 col-xs-2 editImage mt-4">
                 <div className="col-12 img">
-                  <img className="card-img-top" src={img13} alt="Card image cap" />
-                  <div className="card-body txt">
-                    <h5 className="card-title text-center">BIỆT THỰ HIỆN ĐẠI NGẬP TRÀN ÁNH SÁNG</h5>
-                    <p className="card-text">Với quan niệm niềm vui luôn đi kèm với hạnh phúc...</p>
+                  <div style={{ backgroundImage: `url(${img13})` }} className="hovereffect">
+                    <div className="overlay">
+                      <div className="content-hover">
+                        <h2>CENTRAL PREMIUM - SẮC VÀNG ẤN TƯỢNG</h2>
+                        <p>Tông màu vàng luôn đem lại cho người nhìn cảm nhận về niềm vui,..</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -163,19 +200,19 @@ class Home extends Component {
               <div className="d-flex justify-content-center detailText">
                 <div className="col-6 d-flex justify-content-around">
                   <div className="text-center col-md-3 col-sm-6 col-xs-6">
-                    <h1  className="counter">20</h1>
+                    <h1 className="counter">20</h1>
                     <p>Đối tác</p>
                   </div>
                   <div className="text-center col-md-3 col-sm-6 col-xs-6">
-                    <h1  className="counter">125</h1>
+                    <h1 className="counter">125</h1>
                     <p>Kiến trúc sư</p>
                   </div>
                   <div className="text-center col-md-3 col-sm-6 col-xs-6">
-                    <h1  className="counter ">350</h1>
+                    <h1 className="counter ">350</h1>
                     <p>Dự án</p>
                   </div>
                   <div className="text-center col-md-3 col-sm-6 col-xs-6">
-                    <h1  className="counter">630</h1>
+                    <h1 className="counter">630</h1>
                     <p>Khách hàng hài lòng</p>
                   </div>
                 </div>
@@ -197,7 +234,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-      <HomeImmerslide />
+        <HomeImmerslide />
       </div>
     );
   }
