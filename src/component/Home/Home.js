@@ -16,7 +16,6 @@ import * as iconTknt from '../item/Icon/08.thietkenoithat.png';
 import * as iconTc from '../item/Icon/09.thicong.png';
 import * as iconCtxd from '../item/Icon/10.caitao.png';
 import HomeImmerslide from './HomeImmersilde';
-import './home.css';
 
 class Home extends Component {
   render() {
@@ -25,10 +24,10 @@ class Home extends Component {
         <div>
           <div className="purple-square-container">
             <img src={backgroundimg} id="background" className="img-fluid img-reponsive" alt="Background" />
-            <div className="btn-group btn-search" style={{ width: '50%' }}>
+            {/* <div className="btn-group btn-search" style={{ width: '50%' }}>
               <input type="text" className="form-control" name="inputSearch" aria-describedby="helpId" placeholder="Enter your e-mail address" />
               <button className="btn search">SEARCH</button>
-            </div>
+            </div> */}
           </div>
           <div className="container mt-4">
             <div className="row">

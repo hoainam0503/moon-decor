@@ -309,11 +309,11 @@ pre code {
 
 .reload, .btn{
   display: inline-block;
-  border: 4px solid #A2261E;
+  border: 4px solid;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  background: #CC3126;
+  background: rgb(233, 202, 67);
   display: inline-block;
   line-height: 100%;
   padding: 0.7em;
@@ -339,7 +339,7 @@ pre code {
   width: auto;
 }
 .btn:hover, .btn:hover {
-  background: rgba(0,0,0,0.8);
+  background: rgba(223, 211, 54, 0.8);
 }
 .btns {
   width: 410px;
