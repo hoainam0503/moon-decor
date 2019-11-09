@@ -4,6 +4,20 @@
   font-weight:normal;
  font-style:normal;
 }
+
+@font-face{
+  font-family: HelveticaBold;
+  src: url('./font/Helvetica/HelveticaNeue-Bold.otf');
+  font-weight:normal;
+ font-style:normal;
+}
+
+@font-face{
+  font-family: HelveticaItalic;
+  src: url('./font/Helvetica/HelveticaNeue-Italic.otf');
+  font-weight:normal;
+ font-style:normal;
+}
 .App {
   text-align: center;
 }
@@ -221,6 +235,7 @@ body {
   position: relative;
   margin: 0;
   height: 100%;
+  background-color: white;
 }
 
 .wrapper {

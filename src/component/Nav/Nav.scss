@@ -1,11 +1,12 @@
 .nav-header{
   display: flex;
-  // position: fixed;
   background-color: white;
   .nav-tiltle{
-    margin: 0 30%;
+    li{
+      margin: 0px 20px;
+    }
   }
   .btn-contact{
-  
+    
   }
 }

@@ -24,13 +24,6 @@ class Home extends Component {
         <div>
           <div className="purple-square-container">
             <img src={backgroundimg} id="background" className="img-fluid img-reponsive" alt="Background" />
-<<<<<<< HEAD
-=======
-            {/* <div className="btn-group btn-search" style={{ width: '50%' }}>
-              <input type="text" className="form-control" name="inputSearch" aria-describedby="helpId" placeholder="Enter your e-mail address" />
-              <button className="btn search">SEARCH</button>
-            </div> */}
->>>>>>> 8a1f55fbebd02aa8b39fc22986a9d7ca507a0109
           </div>
           <div className="container mt-4">
             <div className="row">

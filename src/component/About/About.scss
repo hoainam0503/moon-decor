@@ -1,0 +1,58 @@
+.layoutBackground {
+  .titleAbout {
+    margin: 24% 0px;
+    h5 {
+      font-size: $fontsizeTitle;
+      font-family: HelveticaBold;
+    }
+  }
+}
+.valueText {
+  margin: 20px 0px;
+  font-size: $fontsizeValue;
+  font-weight: $fontweightValue;
+  font-family: HelveticaMedium;
+}
+.body {
+  .body1 {
+    margin: 20px 0px;
+    align-items: center;
+    .editImage{
+      align-items: center;
+      height: 260px;
+      .card-img-top{
+        width: 32%;
+        height: 5vw;
+      }
+      .card-body{
+        margin-top: 19%;
+      }
+    }
+    .card {
+      border: 0px;
+    }
+  }
+}
+.workingProcess {
+  display: flex;
+  align-items: center;
+  .crossBar {
+    background-color: gray;
+    border: 1px solid gray;
+    width: 160px;
+  }
+}
+.body2 {
+  .card {
+    align-items: center;
+    border: 0px;
+    .card-img-top {
+      width: 36%;
+      height: 7vw;
+    }
+  }
+}
+
+.groupText{
+  padding: 0px 20%;
+}
