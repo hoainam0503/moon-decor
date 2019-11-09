@@ -1,0 +1,92 @@
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hovereffect .overlay {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 9.75em;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  visibility: hidden;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.hovereffect:hover img {
+  -webkit-transform: translate3d(0, -10%, 0);
+  transform: translate3d(0, -10%, 0);
+}
+
+.hovereffect .content-hover{
+  color: #CC9933;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgb(238, 222, 201);
+  margin: 0px;
+}
+.hovereffect .content-hover h2{
+  font-size: 16px;
+}
+
+.hovereffect .content-hover p{
+  font-size: 13px;
+}
+
+
+.hovereffect:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.hovereffect .content-hover{
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+  visibility: visible;
+}
+
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover .content-hover{
+  -webkit-transform: translate3d( 0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hovereffect:hover .content-hover
+ {
+  -webkit-transition-delay: 0.07s;
+  transition-delay: 0.07s;
+}
+
+@media(max-width:767px){
+
+}
+
+@media(min-width:768px) and (max-width:919px){
+  
+}

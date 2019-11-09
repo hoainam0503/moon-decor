@@ -1,3 +1,9 @@
+@font-face{
+  font-family: HelveticaMedium;
+  src: url('./font/Helvetica/HelveticaNeue-Medium.otf');
+  font-weight:normal;
+ font-style:normal;
+}
 .App {
   text-align: center;
 }
@@ -211,7 +217,7 @@ body {
   background: #f3f3f3;
   padding: 0;
   text-align: center;
-  font-family: 'open sans';
+  font-family: HelveticaMedium;
   position: relative;
   margin: 0;
   height: 100%;
@@ -449,13 +455,6 @@ margin-top: 5px;
   object-fit: cover;
   }
   /* reponsive cho input search */
-  .btn-search{
-    position: absolute;
-    z-index: 4;
-  }
-  .search{
-    background-color: #CC9933;
-  }
   .purple-square-container{
     height: 100%;
     display: flex;
@@ -490,7 +489,6 @@ margin-top: 5px;
     width: 300px;
     height: 225px;
     position: relative;
-   
     overflow: hidden;
 }
  
@@ -536,4 +534,13 @@ margin-top: 5px;
     font-size: 1.4vw !important;
     font-family: HelveticaMedium;
     opacity: 0.6;
+  }
+
+  .counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
+
+  .viewMore{
+    background-color: burlywood !important;
   }
