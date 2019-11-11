@@ -1,0 +1,24 @@
+.project{
+  .title{
+    font-size: 40px;
+  }
+  .projectInfo{
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+    .acreage{
+      display: flex;
+      margin: 0px 20px;
+      .projectText{
+        margin: 15px 13px;
+      }
+    }
+  }
+  .sapo{
+    font-size: 16px;
+  }
+  .iconRooms{
+    display: flex;
+    justify-content: space-around;
+  }
+}

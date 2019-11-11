@@ -13,11 +13,15 @@ import * as speech from "../item/Iconabout/speech-bubble.png";
 import * as coin from "../item/Iconabout/coin.png";
 import * as barChart from "../item/Iconabout/bar-chart.png";
 import * as house from "../item/Iconabout/house.png";
+import * as img1 from "../item/image/img2.png";
+import * as img2 from "../item/image/img3.jpg";
+import * as img3 from "../item/image/img4.jpg";
+import * as img4 from "../item/image/img5.jpg";
 
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="aboutUs">
         <div className="card text-white layoutBackground">
           <img src={background} className="card-img" alt="Background" />
           <div className="card-img-overlay titleAbout">
@@ -71,11 +75,7 @@ class About extends Component {
               </div>
               <div className="card-deck body1">
                 <div className="card editImage">
-                  <img
-                    src={key}
-                    className="card-img-top"
-                    alt="key"
-                  />
+                  <img src={key} className="card-img-top" alt="key" />
                   <div className="card-body">
                     <h5 className="card-title">Cam kết</h5>
                     <p className="card-text">
@@ -175,7 +175,42 @@ class About extends Component {
               ĐỘI NGŨ CỦA CHÚNG TÔI
             </div>
             <div className="col-12 text-center groupText">
-            Công ty Moon-Decor chuyên thiết kế - thi công với hơn 2 năm kinh nghiệm. Với đội ngũ kiến trúc sư và kĩ sư trẻ, chúng tôi luôn muốn mang lại cho khách hang những không gian kiến trúc không chỉ đẹp về thẩm mỹ và còn tối ưu về không gian.
+              Công ty Moon-Decor chuyên thiết kế - thi công với hơn 2 năm kinh
+              nghiệm. Với đội ngũ kiến trúc sư và kĩ sư trẻ, chúng tôi luôn muốn
+              mang lại cho khách hang những không gian kiến trúc không chỉ đẹp
+              về thẩm mỹ và còn tối ưu về không gian.
+            </div>
+            <div className="col-12 text-center valueText">
+              CÁC ĐỐI TÁC CỦA CHÚNG TÔI
+            </div>
+            <div className="col-12 text-center valueText">
+              Các dự án mới nhất
+            </div>
+            <div className="card-deck">
+              <div className="card">
+                <img src={img1} className="card-img-top" alt=" moon" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                </div>
+              </div>
+              <div className="card">
+                <img src={img2} className="card-img-top" alt=" moon" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                </div>
+              </div>
+              <div className="card">
+                <img src={img3} className="card-img-top" alt=" moon" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                </div>
+              </div>
+              <div className="card">
+                <img src={img4} className="card-img-top" alt=" moon" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light nav-header">
         <div className="col-2">
-        <NavLink className="navbar-brand" to="/#"><img src={iconLogo} alt="Logo" width="100px" height="70px"/></NavLink>
+        <NavLink className="navbar-brand" to="/"><img src={iconLogo} alt="Logo" width="100px" height="70px"/></NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
@@ -19,7 +19,7 @@ class Nav extends Component {
               <NavLink className="nav-link" to="/">Trang chủ <span className="sr-only">(current)</span></NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/#">Dự án</NavLink>
+              <NavLink className="nav-link" to="/project">Dự án</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">Về chúng tôi</NavLink>
