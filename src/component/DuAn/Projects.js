@@ -38,8 +38,11 @@ class Projects extends Component {
             <img src={iBadroom} alt="project" width="100px" height="70px"/>
             <img src={iBadroom} alt="project" width="100px" height="70px"/>
             </div>
-            <div className="">
-
+            <div className="rooms">
+              <div className="proText">
+                <h2>Professional interior design solution</h2>
+                
+              </div>
             </div>
           </div>
         </div>

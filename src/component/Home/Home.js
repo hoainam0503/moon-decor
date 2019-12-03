@@ -16,6 +16,7 @@ import * as iconTknt from '../item/Icon/08.thietkenoithat.png';
 import * as iconTc from '../item/Icon/09.thicong.png';
 import * as iconCtxd from '../item/Icon/10.caitao.png';
 import HomeImmerslide from './HomeImmersilde';
+import Show from './Show';
 
 class Home extends Component {
   render() {
@@ -25,6 +26,7 @@ class Home extends Component {
           <div className="purple-square-container">
             <img src={backgroundimg} id="background" className="img-fluid img-reponsive" alt="Background" />
           </div>
+          <Show />
           <div className="container mt-4">
             <div className="row">
               <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
